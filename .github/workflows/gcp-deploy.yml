@@ -25,7 +25,7 @@ jobs:
         run: npm install --frozen-lockfile
 
       - name: Build Node Project
-        run: npm run build
+        run: npm start
 
       - name: Google Cloud Auth
         uses: "google-github-actions/auth@v2"
