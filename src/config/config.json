@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "wahyouka",
+    "password": "aezakmi321",
+    "database": "memberapp",
+    "host": "34.67.123.111",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "wahyouka",
+    "password": "aezakmi321",
+    "database": "memberapp_test",
+    "host": "34.46.104.79",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

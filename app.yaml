@@ -1,0 +1,11 @@
+runtime: nodejs20
+service: memberapp-backend
+instance_class: F1 # Optional, defines the instance class
+automatic_scaling:
+  target_cpu_utilization: 0.65
+  target_throughput_utilization: 0.75
+  min_instances: 1 # Adjust this based on your needs
+  max_instances: 5
+
+env_variables:
+  NODE_ENV: "development"
