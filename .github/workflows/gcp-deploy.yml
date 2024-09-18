@@ -1,4 +1,4 @@
-name: Deploy Memberapp API to Goggle App Engine (GAE)
+name: Deploy Memberapp API to Google App Engine (GAE)
 
 on:
   push:
@@ -23,9 +23,6 @@ jobs:
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-
-      - name: Build Node Project
-        run: yarn start
 
       - name: Google Cloud Auth
         uses: "google-github-actions/auth@v2"
