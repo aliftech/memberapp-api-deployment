@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test jest --detectOpenHandles",
-    "start": "node app.js",
-    "build": "webpack"
+    "start": "node app.js"
   },
   "author": "Wahyu Krisna Aji",
   "license": "ISC",
