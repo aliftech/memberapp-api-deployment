@@ -25,7 +25,7 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Build Node Project
-        run: yarn build
+        run: yarn start
 
       - name: Google Cloud Auth
         uses: "google-github-actions/auth@v2"
